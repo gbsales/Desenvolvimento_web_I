@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="./assets/imagens/icon.png" type="image/png">			
+	<title>Prefeitura de Peruíbe</title>
+	<!--Edilene: os arquivos css o normalize dá um reset-->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media-queries.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	<!--Edilene: aqui está sendo aplicada essa fonte do google, pra ficar mais bonitinho-->
+</head>
+<body>
+
+	<script src="js/script.js"></script><!--Marco: O script esta invocando o conteúdo externo-->
+
+	<header><!--Marco: o header e o footer são os mesmos em todas as telas-->
+		<div class="container">
+			<h1>
+				<img src="./assets/imagens/logo.png" height="60px" width="200px" class="medium" alt="Logotipo Peruíbe">
+			</h1> 
+			<nav class="menu-opcoes">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Cidade</a></li> 
+					<li><a href="#">Secretarias e Órgãos</a></li>
+					<li><a href="#">Transparencia</a></li>					
+					<li><a href="#">Legislação</a></li>
+					<li><a href="#">Boletim Oficial</a></li>
+					<li><a href="#">Noticias</a></li>  
+					<li><a href="#">Turismo</a></li>
+					<li><a href="#">Pesquisa</a></li>
+                </ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section class="destaque">
+		<div class="container">
+		
+			<button>
+				<a href="http://www.peruibe3.sp.gov.br/telefones-e-enderecos-2-2/">Original...</a><!--Edilene: aqui pode ser deletado, só pra facilitar é um botão que leva a pagina original-->
+			</button>
+		</div> 
+	</section>
+	
+	<section class="item">
+		<div class="container">
+			<h2 class="titulo-secao">Principais endereços e telefones</h2>
+			<div class="itens">
+				<ul class="conteudoPrincipal">
+					<li class="conteudoPrincipal-link"><a href="#">Associações de Bairro</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Associações de Classe</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Autarquias</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Centros de Saúde</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Conselhos Municipais</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Departamentos</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Empresas de ônibus e transporte</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Entidades Filantrópicas</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Equipamentos turísticos</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Escolas Estaduais</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Escolas Municipais</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Órgãos Externos</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">PSF</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Regionais</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Secretarias</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">Sindicatos</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">UBS</a></li>
+					<li class="conteudoPrincipal-link"><a href="#">UPA</a></li>
+				</ul>
+			</div>
+		
+			<fieldset>
+					<legend class="pesquisa" for="pesquisa-tel-end">Pesquisa</legend>
+					<div class="pesquisa-telefone"> 
+						<input class="form-pesquisa" type="text" name="pesquisa" id="pesquisas">
+						<select name="buscas">
+							<option value="associacoesBairro">Associações de Bairro</option>
+							<option value="associacoesClasse">Associações de Classe</option>
+							<option value="autarquias">Autarquias</option>
+							<option value="centrosDeSaude">Centros de Saúde</option>
+							<option value="conselhosMunicipais">Conselhos Municipais</option>
+							<option value="departamentos">Departamentos</option>
+							<option value="empresasDeOnibusTransporte">Empresas de ônibus e transporte</option>
+							<option value="entidadesFilantropicas">Entidades Filantrópicas</option>
+							<option value="equipamentosTuristicos">Equipamentos turísticos</option>
+							<option value="escolasEstaduais">Escolas Estaduais</option>
+							<option value="escolasMunicipais">Escolas Municipais</option>
+							<option value="orgaosExternos">Órgãos Externos</option>
+							<option value="psf">PSF</option>
+							<option value="regionais">Regionais</option>
+							<option value="secretarias">Secretarias</option>
+							<option value="sindicatos">Sindicatos</option>
+							<option value="ubs">UBS</option>
+							<option value="upa">UPA</option>
+						</select>
+						<button class="pesquisa-submit" type="submit">Buscar</button>
+					</div>
+			</fieldset>	
+			</div>
+		</section>
+	
+	
+	
+	
+	<footer><!--Marco: o Header e o footer são os mesmos em todas as telas-->
+		<div class="container">
+			<img src="imagens/logo.png" alt="">
+			<nav class="menu-rodape">
+				<ul>
+					<li><a href="#">Secretarias e Órgãos</a></li>
+					<li><a href="#">Transparencia</a></li>					
+					<li><a href="#">Legislação</a></li>
+					<li><a href="#">Boletim Oficial</a></li>
+					<li><a href="#">Noticias</a></li>  
+					<li><a href="#">Turismo</a></li>
+					<li><a href="#">Pesquisa</a></li>
+				</ul>
+			</nav>
+
+
+<h6>Template Criado para a Disciplina de Desenvolvimento Web I - TADS/IFSP</br>
+	by EDILENE SHIZUE ONIZUKA REGES° Matrícula:SP3039005 & MARCO ANTONIO DE SOUZA REIS ° Matrícula: SP3041671</h6>
+			<ul class="social">
+				<li><a href="http://www.facebook.com">Facebook</a></li>
+				<li><a href="http://www.twitter.com">Twitter</a></li>
+				<li><a href="http://www.instagram.com">Instagram</a></li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
+</html>
